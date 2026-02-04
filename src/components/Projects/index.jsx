@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-import Rounded from '../../common/RoundedButton';
+import Rounded from '../../common/RoundedButton/Index';
 import Project from './components/project';
 import styles from './style.module.scss';
 

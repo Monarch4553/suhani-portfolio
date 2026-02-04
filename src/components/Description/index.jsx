@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import Rounded from '../../common/RoundedButton';
+import Rounded from '../../common/RoundedButton/Index';
 import { opacity, slideUp } from './animation';
 import styles from './style.module.scss';
 export default function Description() {

@@ -4,8 +4,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { usePathname } from 'next/navigation';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import Magnetic from '../../common/Magnetic';
-import Rounded from '../../common/RoundedButton';
+import Magnetic from '../../common/Magnetic/Index';
+import Rounded from '../../common/RoundedButton/Index';
 import Nav from './nav';
 import styles from './style.module.scss';
 
