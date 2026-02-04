@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import Magnetic from '../../common/Magnetic/Index';
-import Rounded from '../../common/RoundedButton/Index';
+import Magnetic from '../../common/Magnetic';
+import Rounded from '../../common/RoundedButton';
 import styles from './style.module.scss';
 
 export default function Contact() {
